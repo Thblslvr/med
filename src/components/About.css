@@ -1,0 +1,42 @@
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-text h2 {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.about-text ul {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.about-text li {
+  margin-bottom: 0.5rem;
+  color: #27ae60;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-text h2 {
+    text-align: center;
+  }
+}
